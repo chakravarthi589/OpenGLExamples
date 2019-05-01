@@ -11,7 +11,7 @@ int main(int argc, char** argv)
  glutInit(&argc, argv);
  glutInitDisplayMode(GLUT_SINGLE);
  glutInitWindowPosition(500, 500);
- glutCreateWindow("OpenGL - Window Demo");
+ glutCreateWindow("OpenGL - Window Position Demo");
  glutDisplayFunc(display);
  glutMainLoop();
  return 0;
