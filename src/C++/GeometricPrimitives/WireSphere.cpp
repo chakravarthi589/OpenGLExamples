@@ -16,7 +16,7 @@ int main(int argc, char** argv)
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE);
 	glutInitWindowSize(640, 640);
-	glutCreateWindow("OpenGL - Solid Sphere Demo");
+	glutCreateWindow("OpenGL - Wire Sphere Demo");
 	glutDisplayFunc(display);
 	glutMainLoop();
 	return 0;
