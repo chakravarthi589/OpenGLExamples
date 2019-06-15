@@ -24,7 +24,7 @@ int main(int argc, char** argv)
 	glutInit(&argc, argv);
 	glutInitDisplayMode(GLUT_SINGLE);
 	glutInitWindowSize(640, 640);
-	glutCreateWindow("OpenGL - GL_TRIANGLE_FAN Demo");
+	glutCreateWindow("OpenGL - GL_TRIANGLE_STRIP Demo");
 	glutDisplayFunc(display);
 	glutMainLoop();
 	return 0;
