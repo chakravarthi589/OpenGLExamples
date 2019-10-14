@@ -29,7 +29,6 @@ void topRightViewport()
 	glutSolidTeapot(1);
 }
 
-
 static void renderViewports(void)
 {
 
@@ -77,7 +76,6 @@ static void renderViewports(void)
 	glLoadIdentity();
 	gluLookAt(0.0, 0.0, -3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 	topRightViewport();
-
 
 	glFlush();
 }
