@@ -37,9 +37,9 @@ static void renderViewports(void)
 	gluLookAt(0.0, 0.0, -3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 	leftViewport();
 
-
-	glViewport(width / 3, 0, width/3, height);
-	glScissor(width / 3, 0, width /3, height);
+	//middleViewport
+	glViewport(width / 3, 0, width / 3, height);
+	glScissor(width / 3, 0, width / 3, height);
 	glEnable(GL_SCISSOR_TEST);
 	glClearDepth(1.0);
 	glClearColor(0.7, 0.7, 0.7, 0.0);
@@ -49,7 +49,7 @@ static void renderViewports(void)
 	middleViewport();
 
 
-	//middleViewport
+	//rightViewport
 	glViewport(width / 1.5, 0, width / 3, height);
 	glScissor(width / 1.5, 0, width / 3, height);
 	glEnable(GL_SCISSOR_TEST);
