@@ -60,7 +60,6 @@ static void renderViewports(void)
 	gluLookAt(0.0, 0.0, -3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 	rightViewport();
 
-
 	glFlush();
 }
 
