@@ -8,13 +8,13 @@ static int height;
 void leftViewport()
 {
 	glColor3f(1.0f, 0.0f, 0.0f);
-	glutWireTeapot(1);
+	glutSolidTeapot(1);
 }
 
 void rightViewport()
 {
 	glColor3f(0.0f, 0.0f, 1.0f);
-	glutWireTeapot(1);
+	glutSolidTeapot(1);
 }
 
 
